@@ -185,7 +185,7 @@ Você usará um **Application Load Balancer** que opera no nível de solicitaç�
 
 **2.11)** Em **Nome** do balanceador de carga, insira: **LabELB**.
 
-**2.12)** Role para baixo até a seção **Mapeamento de rede** e, depois, em **VPC**, selecione **Lab VPC** ou **VPC_Arquitetura_Corp** se você estiver aproveitando sua infra do Learner Lab.
+**2.12)** Role para baixo até a seção [**Mapeamento de rede**](https://github.com/agodoi/m07-semana06/blob/main/doc/definicao-MapeamentoRede.md) e, depois, em **VPC**, selecione **Lab VPC** ou **VPC_Arquitetura_Corp** se você estiver aproveitando sua infra do Learner Lab.
 
 Agora você especificará quais sub-redes o balanceador de carga deve usar. Será um balanceador de carga voltado para a Internet; portanto, selecione as duas sub-redes públicas, mas calma que vamos fazer por partes para não dar pau no final.
 
