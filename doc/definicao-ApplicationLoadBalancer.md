@@ -6,8 +6,15 @@
   - Qual cabeçalho HTTP está presente
   - Qual host/domínio o usuário acessou
 * Com isso, você pode configurar regras de roteamento muito mais avançadas, direcionando cada requisição para um grupo de destino específico.
+* O Application Load Balancer é um tipo específico de ELB. Ou seja:
+  - Todo ALB é um ELB.
+  - Mas nem todo ELB é um ALB (ele pode ser NLB ou GLB também).
+  - Exemplo simples. Pensa em transportes:
+    - “Transporte público” = ELB (conceito geral).
+    - Dentro dele, você pode escolher: ônibus (ALB), metrô (NLB) ou trem de carga (GLB).
+    - Cada um tem sua função, mas todos fazem parte do mesmo sistema de transporte.
 
-## Exemplo simples
+## Exemplo simples sobre ALB
 
 * Imagine que você tem um shopping center com várias lojas:
   - O Application Load Balancer é o porteiro do shopping.
