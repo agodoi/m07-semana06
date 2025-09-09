@@ -9,9 +9,9 @@ Imagine que você tem um restaurante delivery com vários cozinheiros:
 * O Load Balancer consulta essa lista (grupo de destino) e distribui os pedidos apenas para os cozinheiros ativos.
 * Assim, ninguém fica sobrecarregado e os pedidos são entregues no tempo certo.
 
-## Nesse Lab, ocê vai fazer:
+## Conexão com esse Lab:
 
-1) Criar instâncias EC2 que rodam um servidor Apache.
-2) Configurar um Application Load Balancer para receber as requisições.
-3) Criar um grupo de destino (LabGroup) que lista quais instâncias estão aptas a receber tráfego.
-4) O ELB distribui as requisições entre essas instâncias de forma equilibrada, garantindo escalabilidade e alta disponibilidade.
+1) Você vai criar instâncias EC2 que rodam um servidor Apache.
+2) Vai configurar um Application Load Balancer para receber as requisições.
+3) Vai ciar um grupo de destino (LabGroup) que lista quais instâncias estão aptas a receber tráfego.
+4) E então, o ELB distribuirá as requisições entre essas instâncias de forma equilibrada, garantindo escalabilidade e alta disponibilidade. Beleza?
