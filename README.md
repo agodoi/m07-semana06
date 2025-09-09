@@ -196,7 +196,7 @@ Agora você especificará quais sub-redes o balanceador de carga deve usar. Ser�
 Agora você terá duas sub-redes selecionadas: **Sub-rede pública 1** e **Sub-rede pública 2**. 
  
 
-**2.13)** Na seção **Grupos de segurança:**, escolha **Grupos de segurança** no menu suspenso e selecione **Web Security Group** (Grupo de segurança da web). Ou **GS_EC2Privado** + **GS_EC2Publico**.
+**2.13)** Na seção **Grupos de segurança:**, escolha **Grupos de segurança** no menu suspenso e selecione [**Web Security Group**](https://github.com/agodoi/m07-semana06/blob/main/doc/definicao-WebSecurityGroup.md_. Ou **GS_EC2Privado** + **GS_EC2Publico**.
 
 Abaixo do menu suspenso, selecione o **X** ao lado do grupo de segurança **Default** e clique para removê-lo.
 
