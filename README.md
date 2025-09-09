@@ -27,7 +27,9 @@ Sua aplicação da venda de ingressos precisa ter recursos de auto scalling e ge
 
 O Elastic Load Balancing distribui automaticamente o tráfego de entrada das aplicações por várias instâncias do Amazon EC2. Ele permite obter tolerância a falhas nos aplicativos por meio da disponibilização sem problemas da capacidade necessária de balanceamento de carga para rotear o tráfego de aplicativos.
 
-O Auto Scaling ajuda a manter a disponibilidade da aplicação e permite aumentar ou reduzir a capacidade do Amazon EC2 de forma automática, de acordo com condições definidas por você. Você pode usar o Auto Scaling para ajudar a garantir que está executando o número desejado de instâncias Amazon EC2. O Auto Scaling também pode aumentar automaticamente o número de instâncias do Amazon EC2 durante picos de demanda para manter o desempenho, e diminuir a capacidade durante períodos ociosos para reduzir os custos. O Auto Scaling é ideal para aplicativos com padrões de demanda estáveis ou que passam por variações de utilização horárias, diárias ou semanais.
+O Auto Scaling ajuda a manter a disponibilidade da aplicação e permite aumentar ou reduzir a capacidade do Amazon EC2 de forma automática, de acordo com condições definidas por você. Você pode usar o Auto Scaling para ajudar a garantir que está executando o número desejado de instâncias Amazon EC2. 
+
+O Auto Scaling também pode aumentar automaticamente o número de instâncias do Amazon EC2 durante picos de demanda para manter o desempenho, e diminuir a capacidade durante períodos ociosos para reduzir os custos. O Auto Scaling é ideal para aplicativos com padrões de demanda estáveis ou que passam por variações de utilização horárias, diárias ou semanais.
 
 ### Arquitetura Começa Assim:
 
