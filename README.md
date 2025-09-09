@@ -213,7 +213,7 @@ O grupo de segurança **Web Security Group** (Grupo de segurança da web) agora 
 
 ## Etapa 03 - Criar um modelo de inicialização e um grupo do Auto Scaling
 
-Nesta tarefa, você criará um modelo de execução para seu grupo do Auto Scaling. Um modelo de execução é o que um grupo do Auto Scaling usa para iniciar instâncias do EC2. Ao criar um modelo de execução, você especifica informações para as instâncias, como a AMI, o tipo de instância, um par de chaves e o grupo de segurança.
+Nesta tarefa, você criará um [modelo de execução](https://github.com/agodoi/m07-semana06/blob/main/doc/definicao-ModeloDeExecucao.md) para seu grupo do Auto Scaling.
 
 **3.1)** No painel de navegação à esquerda, selecione **Modelos de execução** que está em **Instâncias**.
 
