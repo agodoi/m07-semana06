@@ -1,4 +1,4 @@
-## O que é Grpo de Destino?
+## O que é esse trem Grupo de Destino?
 
 Imagine que você tem um restaurante delivery com vários cozinheiros:
 
