@@ -47,11 +47,11 @@ O Auto Scaling também pode aumentar automaticamente o número de instâncias do
 
 ## Você tem 2 opções:
 
-### OPC 1) Fazer um teste completo usando uma Arquitetura Corporativa.
+### OPC 1) Fazer um teste completo usando uma Arquitetura Corporativa. É provável que você use essa opção no seu projeto.
 
 #### Caso escolha essa opção, comece do PASSO-00.
 
-### OPC 2) Fazer o laboratório do Módulo 10 do Curso AWS Foundation
+### OPC 2) Fazer o laboratório do Módulo 10 do Curso AWS Foundation. Vamos adotar essa opção para a aula.
 
 #### Caso escolha essa opção, comece do PASSO-01.
 
