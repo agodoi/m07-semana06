@@ -22,7 +22,7 @@ Pensa em uma fila de caixas de supermercado:
 
 ## Nesse exercício, você:
 
-1) Criou um Application Load Balancer (LabELB).
+1) Criou ou vai criar um Application Load Balancer (LabELB).
 2) Ele recebe todas as requisições HTTP dos usuários.
 3) Consulta o grupo de destino (LabGroup) para saber quais instâncias estão íntegras.
 4) Encaminha cada requisição para uma dessas instâncias de forma equilibrada e que esteja saudável
