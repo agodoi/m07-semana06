@@ -25,7 +25,7 @@ Sua aplicação da venda de ingressos precisa ter recursos de auto scalling e ge
 
 ## Conceitos
 
-O Elastic Load Balancing distribui automaticamente o tráfego de entrada das aplicações por várias instâncias do Amazon EC2. Ele permite obter tolerância a falhas nos aplicativos por meio da disponibilização sem problemas da capacidade necessária de balanceamento de carga para rotear o tráfego de aplicativos.
+O [Elastic Load Balancer](https://github.com/agodoi/m07-semana06/blob/main/doc/definicao-ElasticLoadBalancer.md) distribui automaticamente o tráfego de entrada das aplicações por várias instâncias do Amazon EC2. Ele permite obter tolerância a falhas nos aplicativos por meio da disponibilização sem problemas da capacidade necessária de balanceamento de carga para rotear o tráfego de aplicativos.
 
 O Auto Scaling ajuda a manter a disponibilidade da aplicação e permite aumentar ou reduzir a capacidade do Amazon EC2 de forma automática, de acordo com condições definidas por você. Você pode usar o Auto Scaling para ajudar a garantir que está executando o número desejado de instâncias Amazon EC2. 
 
@@ -126,14 +126,14 @@ Agora, você criará uma AMI com base nessa instância.
 
 **1.6)** Clique em **Criar imagem**. Um banner verde de confirmação exibe o ID (tipo ami-065d3b82f7a510b8e) da AMI nova. 
 
-Você usará essa AMI ao iniciar o grupo do Auto Scaling posteriormente no laboratório. Guenta que vamos chegar lá.
+Você usará essa AMI ao iniciar o grupo do Auto Scaling posteriormente no laboratório. Guenta que nói chega lá.
 
 
 ## Passo-02: Criar um ELB
 
-Nesta tarefa, primeiro você criará um grupo de destino e, depois, um balanceador de carga que pode balancear o tráfego entre várias instâncias do EC2 e Zonas de Disponibilidade.
+Nesta tarefa, primeiro você criará um [grupo de destino](https://github.com/agodoi/m07-semana06/blob/main/doc/definicao-GrupoDeDestino.md) e, depois, um balanceador de carga que pode balancear o tráfego entre várias instâncias do EC2 e Zonas de Disponibilidade.
 
-Lembrando, que o Grupo de Destino é um subitem do ELB que serve para monitorar a integridade de EC2 de destinos que estão de pé, íntegros, registrados e prontos receber solicitações. [clique aqui](https://github.com/agodoi/m07-semana06/blob/main/doc/definicao-GrupoDeDestino.md) para saber mais sobre Grupo de Destino.
+Lembrando, que o Grupo de Destino é um subitem do ELB que serve para monitorar a integridade de EC2 de destinos que estão de pé, íntegros, registrados e prontos receber solicitações. [Clique aqui](https://github.com/agodoi/m07-semana06/blob/main/doc/definicao-GrupoDeDestino.md) para saber mais sobre Grupo de Destino.
 
 **2.1)** No painel de navegação à esquerda, escolha **Grupos de destino** que está dentro de **Balanceamento de carga**.
 
@@ -145,7 +145,7 @@ Lembrando, que o Grupo de Destino é um subitem do ELB que serve para monitorar 
 
 **2.5)** Selecione **Lab VPC** no menu suspenso VPC. Se você estiver usando a sua **VPC_Arquitetura_Corp**, selecione essa.
 
-Análise: **grupos de destino** definem para qual local enviar o tráfego que entra no balanceador de carga. O Application Load Balancer pode enviar tráfego para vários grupos de destino com base na URL da solicitação recebida, como ter solicitações de aplicativos móveis indo para outro conjunto de servidores. O aplicativo web usará apenas um grupo de destino.
+Análise: **grupos de destino** definem para qual local enviar o tráfego que entra no balanceador de carga. O [Application Load Balancer](https://github.com/agodoi/m07-semana06/blob/main/doc/definicao-ApplicationLoadBalancer.md) pode enviar tráfego para vários grupos de destino com base na URL da solicitação recebida, como ter solicitações de aplicativos móveis indo para outro conjunto de servidores. Neste exercício, o aplicativo web usará apenas um grupo de destino.
 
 Dica: Na opção **Protocolo da verificação de integridade**, indica que o Grupo de Destino vai mandar um GET no servidor, e se voltar um **200 OK** e não os seguintes códigos do HTTP. Os códigos de status de resposta HTTP são agrupados em cinco classes: 
 
