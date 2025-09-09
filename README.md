@@ -133,7 +133,7 @@ Você usará essa AMI ao iniciar o grupo do Auto Scaling posteriormente no labor
 
 Nesta tarefa, primeiro você criará um grupo de destino e, depois, um balanceador de carga que pode balancear o tráfego entre várias instâncias do EC2 e Zonas de Disponibilidade.
 
-Lembrando, que o Grupo de Destino é um subitem do ELB que serve para monitorar a integridade de EC2 de destinos que estão de pé, íntegros, registrados e prontos receber solicitações.
+Lembrando, que o Grupo de Destino é um subitem do ELB que serve para monitorar a integridade de EC2 de destinos que estão de pé, íntegros, registrados e prontos receber solicitações. [clique aqui](https://github.com/agodoi/m07-semana06/blob/main/doc/definicao-GrupoDeDestino.md) para saber mais sobre Grupo de Destino.
 
 **2.1)** No painel de navegação à esquerda, escolha **Grupos de destino** que está dentro de **Balanceamento de carga**.
 
